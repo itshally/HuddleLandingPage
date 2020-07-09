@@ -1,0 +1,100 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 100%;
+  background: url(../images/bg-desktop.svg);
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+html body {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  max-height: 100vh;
+  margin: 0;
+  margin: auto;
+}
+
+html body .container {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 2rem 5rem;
+}
+
+html body .container .logo {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+html body .container .center {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .container .center .illustration {
+  width: 100%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+html body .container .center .content {
+  width: 100%;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  padding: 3.5rem;
+  color: #ffffff;
+}
+
+html body .container .center .content h1 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+html body .container .center .content p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 2;
+}
+
+html body .container .center .content button {
+  background-color: #ffffff;
+  padding: 15px 50px;
+  border-radius: 25px;
+  border-color: none;
+  border-style: none;
+}
+
+@media screen and (max-width: 375px), (max-width: 640px) {
+  html {
+    background: url(../images/bg-mobile.svg);
+    background-color: #674baf;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  html .center {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
