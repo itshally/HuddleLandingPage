@@ -1,0 +1,5 @@
+.DS_Store
+styles/_variables.scss
+styles/styles.scss
+styles/styles.css.map
+style-guide.md
