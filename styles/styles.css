@@ -36,6 +36,7 @@ html body .container {
           align-items: center;
   justify-items: center;
   margin: auto;
+  margin-bottom: 0;
 }
 
 html body .container .col-left {
@@ -91,7 +92,7 @@ html body .container .col-right {
       -ms-flex-flow: column;
           flex-flow: column;
   width: 50%;
-  height: 85%;
+  height: 100%;
   color: #ffffff;
 }
 
@@ -115,7 +116,7 @@ html body .container .col-right .center .content {
 html body .container .col-right .center .content h1 {
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.05em;
-  font-size: 2em;
+  font-size: 2vmax;
 }
 
 html body .container .col-right .center .content p {
@@ -126,9 +127,10 @@ html body .container .col-right .center .content p {
 }
 
 html body .container .col-right .center .content button {
+  width: 40%;
   background-color: #ffffff;
   color: #674baf;
-  padding: 0.9vmax 2.5vmax;
+  padding: 1.1rem;
   border-radius: 25px;
   border-color: none;
   border-style: none;
@@ -245,7 +247,7 @@ html body footer .attribution a:hover {
   html body .container .col-right .center .content p {
     margin: auto;
     width: auto;
-    max-width: 40vmax;
+    max-width: 55vmax;
     line-height: 1.5;
     font-size: 12.5pt;
   }
