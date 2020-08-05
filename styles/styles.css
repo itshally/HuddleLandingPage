@@ -124,13 +124,16 @@ html body .container .col-right .center .content p {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   font-size: 12.5pt;
+  margin-bottom: 2rem;
 }
 
-html body .container .col-right .center .content button {
-  width: 40%;
+html body .container .col-right .center .content .regBtn {
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
   background-color: #ffffff;
   color: #674baf;
-  padding: 1.1rem;
+  padding: 1.1rem 4.5rem;
   border-radius: 25px;
   border-color: none;
   border-style: none;
@@ -191,7 +194,7 @@ html body footer .attribution a:hover {
   color: #ffc7dc;
 }
 
-@media screen and (max-width: 375px), (max-width: 640px), (max-width: 768px) {
+@media screen and (max-width: 375px), (max-width: 640px), (max-width: 800px) {
   html {
     background: url(../images/bg-mobile.svg);
     background-color: #674baf;
@@ -245,18 +248,11 @@ html body footer .attribution a:hover {
     margin: 1rem auto;
   }
   html body .container .col-right .center .content p {
-    margin: auto;
+    margin: 2rem auto;
     width: auto;
     max-width: 55vmax;
     line-height: 1.5;
     font-size: 12.5pt;
-  }
-  html body .container .col-right .center .content button {
-    width: 60%;
-    max-width: 25vmax;
-    padding: 1.5vmax;
-    border-radius: 25px;
-    margin: 1.5rem;
   }
   html body .container .col-right .social-media-icons {
     -ms-flex-item-align: center;
@@ -265,7 +261,7 @@ html body footer .attribution a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
     margin-bottom: 0;
   }
   html body .container .col-right .social-media-icons .fab {
