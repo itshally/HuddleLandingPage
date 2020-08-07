@@ -16,6 +16,7 @@
   <script src="https://kit.fontawesome.com/39d0e3f084.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -26,14 +27,14 @@
       <!-- logo -->
       <img src="./images/logo.svg" class="logo" alt="logo">
 
-      <div class="center">
+      <div class="center" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1500">
         <img src="./images/illustration-mockups.svg" class="illustration" alt="">
       </div>
     </div>
 
     <!-- right side of the column -->
     <div class="col-right">
-      <div class="center">
+      <div class="center" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
   
         <div class="content">
           <h1>Build The Community Your Fans Will Love</h1>
@@ -62,4 +63,11 @@
     </p>
   </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    anchorPlacement: 'top-bottom'
+  });
+</script>
 </html>
